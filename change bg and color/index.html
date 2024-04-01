@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <select name="bgcolour1" id="bgcolor1" onclick="bgcolor(this.value)">
+                        <option value="green">GREEN</option>
+                        <option value="orange">ORANGE</option>
+                        <option value="purple">PURPLE</option>
+                        <option value="pink">PINK</option>
+                        <option value="cyan">CYAN</option>
+                        <option value="magenta">MAGENTA</option>
+                        <option value="brown">BROWN</option>
+                        <option value="black">BLACK</option>
+                        <option value="white">WHITE</option>
+                        <option value="gray">GRAY</option>
+                        
+                    </select>
+                </td>
+                <td colspan="2"> 
+                    <select name="txcolor" id="txcolor" onclick="txcolor(this.value)">
+                        <option value="green">GREEN</option>
+                        <option value="orange">ORANGE</option>
+                        <option value="purple">PURPLE</option>
+                        <option value="pink">PINK</option>
+                        <option value="cyan">CYAN</option>
+                        <option value="magenta">MAGENTA</option>
+                        <option value="brown">BROWN</option>
+                        <option value="black">BLACK</option>
+                        <option value="white">WHITE</option>
+                        <option value="gray">GRAY</option>
+                        
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><textarea id="textarea" col="10" rows="10"></textarea></td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
