@@ -1,0 +1,23 @@
+html, body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    margin:10px;
+    border: 1px black solid;
+    padding: 10px;
+}
+#output{
+    width: 100px;
+    height: 20px;
+    border: 1px black solid;
+    padding:2px;
+}
+#box{
+    display:inline-block;
+    border:1px black solid;
+    padding:10px;
+    margin:10%;
+}
